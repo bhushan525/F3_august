@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="left">Header</div>
+        <div class="right">
+            <a href="index.html" id="indexpage">SignUp</a>
+            <a href="profile.html" id="profilepage">profile</a>
+        </div>
+    </header>
+    
+    <form action="">
+        <h1>Sign Up</h1>
+        <input type="text" id="name" placeholder="Full Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="pass" placeholder="Password">
+        <input type="password" id="confirmpass" placeholder="Confirm Password">
+        <p class="errorMsg" id="errorMsg">Error: All feilds are required</p>
+        <p class="successMsg" id="successMsg">Successfully sign up</p>
+        <a href="profile.html"><button id="submitBtn">SignUp</button></a>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
